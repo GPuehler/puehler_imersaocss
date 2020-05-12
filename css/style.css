@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://www.publicdomainpictures.net/pictures/270000/velka/blue-canvas-background.jpg');
+    background-size: auto 100vh;
+    height: 100vh;
+
+}
+
+.menu {
+    background-color: white;;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    /* Flex força a virarem coluna */
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-title,
+.site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
